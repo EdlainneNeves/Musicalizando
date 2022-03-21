@@ -1,0 +1,2 @@
+# Musicalizando
+Possui caixas de texto para escrever o Título do Álbum, Artista, etc. e opção de selecionar data de cadastro e lançamento. O botão remover limpa os campos. Precisa de conexão com um banco de dados para armazenar os dados, os quais seriam utilizados para retornar pesquizas na área de texto "Listas de músicas". As setas |&lt; &lt; >| serviriam para selecionar os registro do banco de dados do primeiro, próximo, anterior e último. 
