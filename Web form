@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="/style:0.0.1.css">
+  <link rel="icon" href="/favicon.png" type="image/png">
+    <script type="text/javascript" src="/lib:0.0.1.js"></script>
+    <title>CIEE</title>
+</head>
+
+<body>
+<div id="gw-preload" style="display:none;"><img src="message/error.png"><img src="message/info.png"><img src="message/question.png"><img src="message/warning.png"></div>
+<div id="gw-modal" onclick="gw.window.onDownModal();" onmouseover="gw.window.onDownModal(true);"></div>
+<div id="gw-lock"><div id="gw-lock-animation"><div id="gw-lock-1" class="gw-lock-circle"></div><div id="gw-lock-2" class="gw-lock-circle"></div><div id="gw-lock-3" class="gw-lock-circle"></div></div></div>
+<div class="gw-form" id="@1"
+ style="position:relative;flex-shrink:0;background-color:#FFFFFF;min-height:2px;height:2px;">
+<div class="gw-menubar gw-hidden" id="@1.$2" style="position:relative;flex-shrink:0;"></div>
+<div class="gw-container gw-form-contents" id="@1.$3" style="position:relative;flex-grow:1;padding:0.5rem;"><div class="gw-container" id="@1.CNT" style="position:relative;flex-shrink:0;background-color:#C0C0C0;display:flex;flex-flow:column;"><div class="gw-hbox" id="@1.spcSupBotoes3" style="position:relative;flex-shrink:0;background-color:#C0C0C0;height:30px;display:flex;flex-flow:row;overflow-x:hidden;"></div>
+<div class="gw-hbox" id="@1.spcSupBotoes2" style="position:relative;flex-shrink:0;height:30px;display:flex;flex-flow:row;overflow-x:hidden;"></div>
+<div class="gw-hbox" id="@1.boxTitulo" style="position:relative;flex-grow:1;font-size:2em;display:flex;flex-flow:row;overflow-x:hidden;"><div class="gw-vbox" id="@1.WebVBox3" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+<div class="gw-label" id="@1.lblTitulo" style="flex-grow:1;font-family:fantasy;font-weight:bold;font-style:italic;justify-content:center;">Musicalizando</div>
+<div class="gw-vbox" id="@1.WebVBox1" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+</div>
+<div class="gw-hbox" id="@1.spcInfMsn" style="position:relative;flex-shrink:0;background-color:#C0C0C0;height:30px;display:flex;flex-flow:row;overflow-x:hidden;"></div>
+<div class="gw-hbox" id="@1.boxTituloAlbum" style="position:relative;flex-shrink:0;display:flex;flex-flow:row;overflow-x:hidden;"><div class="gw-vbox" id="@1.WebVBox4" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+<div class="gw-label gw-noborder" id="@1.lblTituloAlbum" style="flex-shrink:0;width:150px;">Título&nbsp;Álbum:</div>
+<div class="gw-textbox" id="@1.txtTituloAlbum" style="flex-shrink:0;background-color:#E0E0E0;width:150px;text-decoration:underline;"><input id="@1.txtTituloAlbum:entry" type="text" onblur="gw.update('@1.txtTituloAlbum','text',this.value);">
+</div>
+<div class="gw-vbox" id="@1.WebVBox2" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+</div>
+<div class="gw-hbox" id="@1.boxDataLanc" style="position:relative;flex-shrink:0;display:flex;flex-flow:row;overflow-x:hidden;"><div class="gw-vbox" id="@1.WebVBox7" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+<div class="gw-label gw-noborder" id="@1.lbldatalanc" style="flex-shrink:0;width:150px;justify-content:flex-start;">Data&nbsp;lançamento:</div>
+<div class="gw-datebox" id="@1.databoxLanc" style="flex-shrink:0;width:150px;"><input id="@1.databoxLanc:entry" class="gw-combobox-text" type="text" value="" onchange="gw.update('@1.databoxLanc','text',this.value);"><div class="gw-combobox-arrow" onmousedown="gw.update('@1.databoxLanc','#popup',null);"></div>
+</div>
+<div class="gw-vbox" id="@1.WebVBox8" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+</div>
+<div class="gw-hbox" id="@1.boxArtista" style="position:relative;flex-shrink:0;display:flex;flex-flow:row;overflow-x:hidden;"><div class="gw-vbox" id="@1.WebVBox9" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+<div class="gw-label gw-noborder" id="@1.lblartista" style="flex-shrink:0;width:150px;">Artista:</div>
+<div class="gw-textbox" id="@1.txtArtista" style="flex-shrink:0;background-color:#E0E0E0;width:150px;"><input id="@1.txtArtista:entry" type="text" onblur="gw.update('@1.txtArtista','text',this.value);">
+</div>
+<div class="gw-vbox" id="@1.WebVBox10" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+</div>
+<div class="gw-hbox" id="@1.boxGenero" style="position:relative;flex-shrink:0;display:flex;flex-flow:row;overflow-x:hidden;"><div class="gw-vbox" id="@1.WebVBox11" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+<div class="gw-label gw-noborder" id="@1.lblGenero" style="flex-shrink:0;width:150px;">Gênero:</div>
+<div class="gw-textbox" id="@1.txtGenero" style="flex-shrink:0;background-color:#E0E0E0;width:150px;"><input id="@1.txtGenero:entry" type="text" onblur="gw.update('@1.txtGenero','text',this.value);">
+</div>
+<div class="gw-vbox" id="@1.WebVBox12" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+</div>
+<div class="gw-hbox" id="@1.boxDataCadastro" style="position:relative;flex-shrink:0;display:flex;flex-flow:row;overflow-x:hidden;"><div class="gw-vbox" id="@1.WebVBox13" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+<div class="gw-label gw-noborder" id="@1.lblDataCadastro" style="flex-shrink:0;width:150px;">Data&nbsp;cadastro:</div>
+<div class="gw-datebox" id="@1.databoxCadastro" style="flex-shrink:0;width:150px;"><input id="@1.databoxCadastro:entry" class="gw-combobox-text" type="text" value="" onchange="gw.update('@1.databoxCadastro','text',this.value);"><div class="gw-combobox-arrow" onmousedown="gw.update('@1.databoxCadastro','#popup',null);"></div>
+</div>
+<div class="gw-vbox" id="@1.WebVBox14" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+</div>
+<div class="gw-hbox" id="@1.boxPreco" style="position:relative;flex-shrink:0;display:flex;flex-flow:row;overflow-x:hidden;"><div class="gw-vbox" id="@1.WebVBox15" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+<div class="gw-label gw-noborder" id="@1.lblPreco" style="flex-shrink:0;width:150px;">Preço:</div>
+<div class="gw-textbox" id="@1.txtPreco" style="flex-shrink:0;background-color:#E0E0E0;width:150px;"><input id="@1.txtPreco:entry" type="text" onblur="gw.update('@1.txtPreco','text',this.value);">
+</div>
+<div class="gw-vbox" id="@1.WebVBox16" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+</div>
+<div class="gw-hbox" id="@1.spcSupmusicaBotoes2" style="position:relative;flex-shrink:0;background-color:#C0C0C0;height:30px;display:flex;flex-flow:row;overflow-x:hidden;"></div>
+<div class="gw-hbox" id="@1.WebHBox2" style="position:relative;flex-shrink:0;background-color:#C0C0C0;display:flex;flex-flow:row;overflow-x:hidden;"></div>
+<div class="gw-hbox" id="@1.boxmusicas" style="position:relative;flex-shrink:0;background-color:#C0C0C0;display:flex;flex-flow:row;overflow-x:hidden;"><div class="gw-vbox" id="@1.WebVBox6" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+<div class="gw-label gw-noborder" id="@1.lblMusicas" style="flex-shrink:0;">Lista&nbsp;de&nbsp;Músicas:</div>
+<textarea class="gw-textarea" id="@1.txtMusicas" autocomplete="off" onblur="gw.update('@1.txtMusicas','text',this.value);" style="flex-grow:1;background-color:#F6FFFF;white-space:pre;"></textarea>
+<div class="gw-vbox" id="@1.WebVBox20" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+</div>
+<div class="gw-hbox" id="@1.spcSupBotoes" style="position:relative;flex-shrink:0;background-color:#C0C0C0;height:30px;display:flex;flex-flow:row;overflow-x:hidden;"></div>
+<div class="gw-hbox" id="@1.boxBotoes" style="position:relative;flex-shrink:0;display:flex;flex-flow:row;overflow-x:hidden;"><div class="gw-vbox" id="@1.WebVBox19" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+<div class="gw-button" id="@1.btnLISTAR" style="flex-shrink:0;"><span>Listar</span></div>
+<div class="gw-vbox" id="@1.WebVBox17" style="position:relative;flex-shrink:0;width:4px;display:flex;flex-flow:column;"></div>
+<div class="gw-button" id="@1.btnCADASTRAR" style="flex-shrink:0;"><span>Cadastrar</span></div>
+<div class="gw-vbox" id="@1.WebVBox29" style="position:relative;flex-shrink:0;width:4px;display:flex;flex-flow:column;"></div>
+<div class="gw-button" id="@1.btnATUZALIZAR" style="flex-shrink:0;"><span>Atualizar</span></div>
+<div class="gw-vbox" id="@1.WebVBox18" style="position:relative;flex-shrink:0;width:4px;display:flex;flex-flow:column;"></div>
+<div class="gw-button" id="@1.btnREMOVER" onclick="gw.raise('@1.btnREMOVER','click');" style="flex-shrink:0;"><span>Remover</span></div>
+<div class="gw-vbox" id="@1.WebVBox23" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+</div>
+<div class="gw-hbox" id="@1.spcSupmusicaBotoes5" style="position:relative;flex-shrink:0;background-color:#C0C0C0;height:30px;display:flex;flex-flow:row;overflow-x:hidden;"></div>
+<div class="gw-hbox" id="@1.boxNavegar" style="position:relative;flex-shrink:0;display:flex;flex-flow:row;overflow-x:hidden;"><div class="gw-vbox" id="@1.WebVBox21" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+<div class="gw-button" id="@1.btbPrimeiro" style="flex-shrink:0;"><span>|&lt;</span></div>
+<div class="gw-button" id="@1.btbProximo" style="flex-shrink:0;"><span>&gt;</span></div>
+<div class="gw-button" id="@1.btnAnterior" style="flex-shrink:0;"><span>&lt;</span></div>
+<div class="gw-button" id="@1.btnUltimo" style="flex-shrink:0;"><span>&gt;|</span></div>
+<div class="gw-vbox" id="@1.WebVBox22" style="position:relative;flex-grow:1;display:flex;flex-flow:column;"></div>
+</div>
+<div class="gw-hbox" id="@1.spcSupmusicaBotoes" style="position:relative;flex-shrink:0;background-color:#C0C0C0;height:30px;display:flex;flex-flow:row;overflow-x:hidden;"></div>
+</div>
+<div class="gw-hbox" id="@1.WebHBox1" style="position:relative;flex-shrink:0;display:flex;flex-flow:row;overflow-x:hidden;"></div>
+</div>
+<div class="gw-container gw-window-container" id="@1.$$" style="position:absolute;"></div>
+</div>
+<script type="text/javascript">
+gw.form = 'Webform1';
+gw.version = '0.0.1';
+gw.debug = false;
+</script>
+</body>
+</html>
